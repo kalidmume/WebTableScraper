@@ -1,15 +1,19 @@
-# 🧮 WebTableScraper (Basic → Standard)
+# WebTableScraper
 
-This project scrapes tables (like Wikipedia lists) and saves them as CSV files.
+🧮 Scrapes tables from websites (like Wikipedia) and saves them as CSV files.
 
----
+## Features
+- Extract tables from any HTML page
+- Clean data and remove reference tags
+- Save results in CSV format
+- Two versions: Basic & Standard
 
-## 🔹 Versions
-- **basic_v1.py** → simple working version
-- **standard_v2.py** → improved structure, multi-table support, clean data
+## Versions
+- **basic_v1.py** → Simple working version
+- **standard_v2.py** → Improved: multi-table support, cleaner data, better structure
 
----
-
-## 🚀 How to Use
+## Requirements
+- Python 3.x
+- Libraries:
 ```bash
-python basic_v1.py
+pip install requests beautifulsoup4
